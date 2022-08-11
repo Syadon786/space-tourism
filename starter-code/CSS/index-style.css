@@ -1,0 +1,97 @@
+/*Tag selectors*/
+body { 
+    background-image: url("/assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+hr {
+    position: absolute;
+    width: 100%;
+    left: 20%;
+    top: 50%;
+    margin: 0;
+    z-index: 1;
+}
+
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 9.375rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;  
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 4.75px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+
+p {
+    color: #D0D6F9;
+    line-height: 2;
+    font-size: 1.05rem;
+}
+
+/*Class selectors*/
+.navbar {
+   background-color: rgba( 11, 13, 23, 0.5);/*#0B0D17;*/
+}
+
+.nav-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    color: white;
+    font-size: 1rem;
+}
+
+.top-left-col {
+    display: flex;
+    position: relative;
+}
+
+.nav-row {
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+}
+
+.content-row {
+    margin-bottom: 10rem;
+}
+
+.explore-container {
+    background-color: #fff;
+    border-radius: 100%;
+    aspect-ratio : 1 / 1;
+    height: 70%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.explore-circle-container {
+    position: relative;
+}
+
+
+
