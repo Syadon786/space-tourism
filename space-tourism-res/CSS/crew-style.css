@@ -57,20 +57,20 @@ p {
 }
 
 .engineer-image {
-    width: 80%;
+    width: 85%;
     position: absolute;
     right: 0;
     top: 0;
 }
 
 .pilot-image {
-    width: 70%;
+    width: 80%;
     position: absolute;
     right: 0;
 }
 
 .specialist-image {
-    width: 60%;
+    width: 70%;
     position: absolute;
     right: 0;
 }
