@@ -1,0 +1,29 @@
+/*Tag selectors*/
+body { 
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+}
+
+/*Class selectors*/
+.navbar {
+    background: linear-gradient(to right, 
+    rgba(41, 46, 55, 0.9) 25%, 
+    rgba(28, 30, 41, 1) 80%);
+}
+
+.nav-row {
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
+
+.destination-image {
+    padding: 50px;
+    width: 75%;
+}
+
+.nav-destination .nav-item{
+    text-align: left;
+}
+
+.nav-destination li span {
+    line-height: 50px;
+}

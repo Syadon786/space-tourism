@@ -1,0 +1,78 @@
+/*Tag selectors*/
+nav {
+    width: 100%
+}
+
+/*Class selectors*/
+.navbar-line {
+    position: absolute;
+    width: 90%;
+    left: 20%;
+    top: 50%;
+    margin: 0;
+    z-index: 1;
+}
+
+.nav-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-height-max{
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+    padding: 0 8px ;
+}
+
+.nav-link span {
+    display: inline-block;    
+    line-height: 100px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.nav-link span:hover {
+    text-decoration: none;
+    border-bottom: 3px solid rgb(138, 139, 144);
+}
+
+.active span {
+    border-bottom: 3px solid white;
+}
+
+.top-left-col {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.top-right-col {
+    display: flex;
+    position: relative;   
+}
+
+ul.nav {
+    width: 100%;
+}
