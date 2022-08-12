@@ -1,6 +1,16 @@
 /*Tag selectors*/
 body { 
     background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-color: rgb(11, 14, 23);
+   
+}
+
+h4  {
+    color: rgb(145, 146, 151);
+}
+
+p {
+    margin-bottom: 5rem;
 }
 
 /*Class selectors*/
@@ -8,4 +18,59 @@ body {
     background: linear-gradient(to right, 
     rgba(41, 43, 50, 0.9) 25%, 
     rgba(40, 41, 49, 1) 80%);
+}
+
+.crew-subtitle {
+    margin-bottom: 50px;
+}
+
+.crew-details {
+    margin-top: 100px;
+}
+
+.crew-slide {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+}
+
+.crew-slide:hover {
+    background-color: rgb(133, 134, 139);
+}
+
+.idle-crew-slide {
+    background-color: rgb(53, 55, 63);
+}
+
+.active-crew-slide {
+    background-color: white;
+}
+
+.crew-image-container {
+    position: relative;
+}
+
+.commander-image {
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+.engineer-image {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pilot-image {
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+.specialist-image {
+    width: 60%;
+    position: absolute;
+    right: 0;
 }

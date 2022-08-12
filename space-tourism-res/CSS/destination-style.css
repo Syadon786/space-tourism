@@ -22,3 +22,7 @@ body {
 .nav-destination li span {
     line-height: 50px;
 }
+
+.destination-subtitle {
+    margin-bottom: 50px;
+}
