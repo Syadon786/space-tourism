@@ -4,12 +4,6 @@ body {
 }
 
 /*Class selectors*/
-.navbar {
-    background: linear-gradient(to right, 
-    rgba(41, 46, 55, 0.9) 25%, 
-    rgba(28, 30, 41, 1) 80%);
-}
-
 .destination-image {
     padding: 50px;
     width: 75%;

@@ -20,16 +20,6 @@ h4 {
 }
 
 /*Class selectors*/
-.navbar {
-    background: linear-gradient(to right, rgba(21, 23, 33, 1) 15%, 
-    rgba(32, 42, 53, 0.9) 25%, 
-    rgba(55, 75, 107, 0.9) 28%, 
-    rgba(92, 101, 121, 1) 32%, 
-    rgb(47, 69, 104) 53%, 
-    rgba(92, 101, 121, 1) 60%  ,
-    rgba(22, 39, 67, 1) 80%);
-}
-
 .content-row {
     margin-bottom: 10rem;
 }

@@ -21,6 +21,7 @@ nav {
 
 .navbar {
     padding: 0;
+    backdrop-filter: blur(30px);
 }
 
 .nav-link {

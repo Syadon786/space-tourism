@@ -14,12 +14,6 @@ p {
 }
 
 /*Class selectors*/
-.navbar {
-    background: linear-gradient(to right, 
-    rgba(41, 43, 50, 0.9) 25%, 
-    rgba(40, 41, 49, 1) 80%);
-}
-
 .crew-subtitle {
     margin-bottom: 50px;
 }

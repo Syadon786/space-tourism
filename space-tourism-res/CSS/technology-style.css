@@ -22,13 +22,6 @@ li {
   transform: translateY(-50%);
 }
 
-
-.navbar {
-    background: linear-gradient(to right, 
-    rgba(27, 28, 40, 0.9) 25%, 
-    rgba(29, 31, 43, 1) 80%);
-}
-
 .container-fluid {
     position: absolute;
     right: 0;
