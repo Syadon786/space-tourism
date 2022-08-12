@@ -6,7 +6,7 @@ nav {
 /*Class selectors*/
 .navbar-line {
     position: absolute;
-    width: 90%;
+    width: 85%;
     left: 20%;
     top: 50%;
     margin: 0;
@@ -14,8 +14,8 @@ nav {
 }
 
 .nav-image {
-    width: 3.5rem;
-    height: 3.5rem;
+    height: 50%;
+    width: auto;
     margin-left: 2rem;
 }
 

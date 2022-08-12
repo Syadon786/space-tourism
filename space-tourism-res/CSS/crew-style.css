@@ -51,26 +51,26 @@ p {
 }
 
 .commander-image {
-    width: 70%;
+    width: 65%;
     position: absolute;
     right: 0;
 }
 
 .engineer-image {
-    width: 85%;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 0;
 }
 
 .pilot-image {
-    width: 80%;
+    width: 90%;
     position: absolute;
     right: 0;
 }
 
 .specialist-image {
-    width: 70%;
+    width: 75%;
     position: absolute;
     right: 0;
 }

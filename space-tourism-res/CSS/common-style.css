@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: 'Bellefair', serif;
-    font-size: 9.375rem;
+    font-size: 9.525rem;
     text-transform: uppercase;
 }
 
@@ -20,19 +20,19 @@ h2 {
 
 h3 {
     font-family: 'Bellefair', serif;
-    font-size: 3.5rem;
+    font-size: 3.65rem;
     text-transform: uppercase;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 2.15rem;
     font-family: 'Bellefair', serif;
     text-transform: uppercase;  
 }
 
 h5 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.9rem;
     letter-spacing: 4.75px;
     text-transform: uppercase;
     color: #D0D6F9;
@@ -46,20 +46,20 @@ h5 strong {
 p {
     color: #D0D6F9;
     line-height: 2;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
 }
 
 /*Class selectors*/
 .subheading-one {
     font-family: 'Bellefair', serif;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 1.9rem;
 }
 
 .subheading-two {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 1.025rem;
     letter-spacing: 2.35px;
     margin-bottom: 0;
 }
