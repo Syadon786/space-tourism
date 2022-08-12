@@ -1,6 +1,6 @@
 /*Tag selectors*/
 body {
-    background-image: url("../assets/technology/background-technology-desktop.jpg");  
+    background-image: url("../assets/technology/background-technology-desktop.jpg"); 
 }
 
 ul {
@@ -20,13 +20,6 @@ li {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.container-fluid {
-    position: absolute;
-    right: 0;
-    width: 90%;
-    padding-bottom: 100px;
 }
 
 .technology-image-container {
@@ -50,6 +43,11 @@ li {
 
 .technology-item{
     width: 100%;
+}
+
+.container-fluid {
+   width: 90%;
+   margin-right: 0;
 }
 
 .technology-slide-container {

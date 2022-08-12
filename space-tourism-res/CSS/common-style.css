@@ -2,8 +2,9 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;   
     color: #fff;
-    overflow-x: hidden;
+    padding-bottom: 150px;
 }
 
 h1 {
