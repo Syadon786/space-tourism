@@ -13,6 +13,12 @@ h4 {
     transform: translateX(-50%);
 }
 
+/*Id selectors*/
+#nav-row-index {
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+}
+
 /*Class selectors*/
 .navbar {
     background: linear-gradient(to right, rgba(21, 23, 33, 1) 15%, 
@@ -22,11 +28,6 @@ h4 {
     rgb(47, 69, 104) 53%, 
     rgba(92, 101, 121, 1) 60%  ,
     rgba(22, 39, 67, 1) 80%);
-}
-
-.nav-row {
-    margin-bottom: 20rem;
-    margin-top: 2rem;
 }
 
 .content-row {

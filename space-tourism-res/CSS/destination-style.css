@@ -10,11 +10,6 @@ body {
     rgba(28, 30, 41, 1) 80%);
 }
 
-.nav-row {
-    margin-bottom: 10rem;
-    margin-top: 2rem;
-}
-
 .destination-image {
     padding: 50px;
     width: 75%;

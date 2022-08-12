@@ -63,3 +63,8 @@ p {
     letter-spacing: 2.35px;
     margin-bottom: 0;
 }
+
+.nav-row {
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
