@@ -4,17 +4,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    overflow-x: hidden;
 }
 
 hr {
     position: absolute;
-    width: 100%;
+    width: 90%;
     left: 20%;
     top: 50%;
     margin: 0;
     z-index: 1;
 }
 
+img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 2rem;
+}
 
 h1 {
     font-family: 'Bellefair', serif;
@@ -51,7 +57,13 @@ p {
 
 /*Class selectors*/
 .navbar {
-   background-color: rgba( 11, 13, 23, 0.5);/*#0B0D17;*/
+    background: linear-gradient(to right, rgba(21, 23, 33, 1) 10%, 
+    rgba(55, 75, 107, 0.9) 25%, 
+    rgba(92, 101, 121, 1) 35%, 
+    rgb(47, 69, 104) 50%, 
+    rgba(92, 101, 121, 1) 60%  ,
+    rgba(22, 39, 67, 1) 80%);
+    padding: 2rem;
 }
 
 .nav-link {
@@ -59,11 +71,13 @@ p {
     letter-spacing: 2.7px;
     color: white;
     font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .top-left-col {
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .nav-row {
