@@ -77,3 +77,48 @@ nav {
 ul.nav {
     width: 100%;
 }
+
+
+/*! Small laptop size */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-line {
+        display: none;
+    }
+}
+
+/*! Tablet size */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-line {
+        display: none;
+    }
+}
+
+/*! Mobile size */
+@media (max-width: 767px) {
+    .navbar-line {
+        display: none;
+    }
+
+    .nav-image {
+        height: 50px;
+        width: auto;
+        margin-left: 2rem;
+    }    
+
+    .top-right-col {
+        padding-right: 30px;
+    }
+
+    .top-left-col {
+        align-items: flex-start;
+    }
+
+    .fa-bars {
+        color: rgb(208, 214, 249);
+    }
+
+    .navbar-toggler {
+        padding: 0.5rem 1rem;
+    }
+}
+

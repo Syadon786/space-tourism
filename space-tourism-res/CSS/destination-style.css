@@ -34,3 +34,46 @@ body {
     margin-top: 60px;
 }
 
+
+/*! Small laptop size */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-image: url("../assets/destination/background-destination-tablet.jpg");
+        text-align: center;
+    }
+    .nav-destination .nav-item{
+        text-align: center;
+    }
+}
+
+/*! Tablet size */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-image: url("../assets/destination/background-destination-tablet.jpg");
+        text-align: center;
+    }
+
+    .nav-destination .nav-item{
+        text-align: center;
+    }
+}
+
+/*! Mobile size */
+@media (max-width: 767px) {
+    body {
+        background-image: url("../assets/destination/background-destination-mobile.jpg");
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-destination .nav-item{
+        text-align: center;
+    }
+
+    p {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
