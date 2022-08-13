@@ -1,6 +1,7 @@
 /*Tag selectors*/
 body {
     background-image: url("../assets/home/background-home-desktop.jpg");
+    padding-bottom: 150px;
 }
 
 h4 {
@@ -15,7 +16,7 @@ h4 {
 
 /*Id selectors*/
 #nav-row-index {
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
     margin-top: 2rem;
 }
 

@@ -1,6 +1,7 @@
 /*Tag selectors*/
 body {
     background-image: url("../assets/technology/background-technology-desktop.jpg"); 
+    padding-bottom: 200px;
 }
 
 ul {
@@ -53,7 +54,7 @@ li {
 .technology-slide-container {
     position: relative;
     aspect-ratio: 1 / 1;
-    height: 75%;
+    height: 65%;
     width: auto; 
     outline: 2px solid gray;
     border-radius: 100%;

@@ -1,12 +1,21 @@
 /*Tag selectors*/
 body { 
     background-image: url("../assets/destination/background-destination-desktop.jpg");
+    padding-bottom: 150px;
 }
 
 /*Class selectors*/
 .destination-image {
     padding: 50px;
-    width: 75%;
+    width: 65%;
+}
+
+.nav-destination {
+    margin-bottom: 30px;
+}
+
+.destination-image-container {
+    text-align: center;
 }
 
 .nav-destination .nav-item{
@@ -19,5 +28,9 @@ body {
 
 .destination-subtitle {
     margin-bottom: 50px;
+}
+
+.destination-line {
+    margin-top: 60px;
 }
 
