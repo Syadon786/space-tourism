@@ -8,10 +8,6 @@ h4  {
     color: rgb(145, 146, 151);
 }
 
-p {
-    margin-bottom: 5rem;
-}
-
 /*Class selectors*/
 .crew-subtitle {
     margin-bottom: 50px;
@@ -66,4 +62,75 @@ p {
     width: 85%;
     position: absolute;
     right: 0;
+}
+
+.nav-crew li {
+    display: inline-block;
+}
+
+.nav-crew-container {
+    padding: 50px 0;
+}
+
+/*! Small laptop size */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-image: url("../assets/crew/background-crew-tablet.jpg");
+        text-align: center;
+    }
+}
+
+/*! Tablet size */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-image: url("../assets/crew/background-crew-tablet.jpg");
+        text-align: center;
+    }
+
+    p {
+        width: 75%;
+        margin: auto auto 50px auto;
+    }
+
+    .nav-crew-container {
+        margin: auto;
+    }
+
+    .specialist-image {
+        width: 60%;
+        right: 20%;
+    }
+
+    .pilot-image {
+        width: 70%;
+        right: 15%;
+    }
+
+    .commander-image {
+        right: 15%;
+    }
+    
+    .engineer-image {
+        width: 70%;
+        right: 15%;
+        top: 0;
+    }
+}
+
+/*! Mobile size */
+@media (max-width: 767px) {
+    body {
+        background-image: url("../assets/crew/background-crew-mobile.jpg");
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-destination .nav-item{
+        text-align: center;
+    }
+
+    p {
+        width: 70%;
+        margin: auto;
+    }
 }
