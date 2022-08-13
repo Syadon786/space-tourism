@@ -137,6 +137,11 @@ h4 {
     #nav-row-index {
         margin-bottom: 5rem;
     }
+
+    p {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
