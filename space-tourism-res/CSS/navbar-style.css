@@ -30,15 +30,12 @@ nav {
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
+    height: 100%;
+    padding: 0 8px ;
 }
 
 .nav-height-max{
     height: 100%;
-}
-
-.nav-link {
-    height: 100%;
-    padding: 0 8px ;
 }
 
 .nav-link span {
@@ -78,6 +75,9 @@ ul.nav {
     width: 100%;
 }
 
+.mobile-navbar-container {
+    display: none;
+}
 
 /*! Small laptop size */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -117,6 +117,16 @@ ul.nav {
         color: rgb(208, 214, 249);
     }
 
+    .fa-x {
+        color: rgb(208, 214, 249);
+    }
+
+    .nav-mobile-close {
+        position: absolute;
+        right: 15%;
+        top: 5%;
+    }
+
     .navbar-toggler {
         padding: 0.5rem 1rem;
     }
@@ -130,5 +140,45 @@ ul.nav {
     .navbar-toggler:focus {
         box-shadow: none;
     }
+
+    .mobile-navbar-container {
+        display: initial;
+        position: absolute;
+        backdrop-filter: blur(30px);
+        width: 75vw;
+        height: 100vh;
+        right: 0;
+        z-index: 1;
+    }
+
+    .mobile-navbar {
+        width: 75%;
+        margin-left: 5%;
+        position: absolute;
+        top: 15%;
+    }
+
+    .nav-link {
+        text-align: left;
+        padding: 0 0 20% 5%;
+    }
+
+    .nav-link span {
+        display: inline-block;    
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .nav-link span:hover {
+        text-decoration: none;
+        border-right: 3px solid rgb(138, 139, 144);
+        border-bottom: none;
+    }
+    
+    .active span {
+        border-right: 3px solid white;
+        border-bottom: none;
+    }
+
 }
 

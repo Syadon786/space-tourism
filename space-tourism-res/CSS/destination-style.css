@@ -10,7 +10,7 @@ body {
     width: 65%;
 }
 
-.nav-destination {
+#nav-destination {
     margin-bottom: 30px;
 }
 
@@ -18,11 +18,11 @@ body {
     text-align: center;
 }
 
-.nav-destination .nav-item{
+#nav-destination .nav-item{
     text-align: left;
 }
 
-.nav-destination li span {
+#nav-destination li span {
     line-height: 50px;
 }
 
@@ -41,7 +41,7 @@ body {
         background-image: url("../assets/destination/background-destination-tablet.jpg");
         text-align: center;
     }
-    .nav-destination .nav-item{
+    #nav-destination .nav-item{
         text-align: center;
     }
 }
@@ -53,7 +53,7 @@ body {
         text-align: center;
     }
 
-    .nav-destination .nav-item{
+    #nav-destination .nav-item{
         text-align: center;
     }
 }
@@ -66,10 +66,6 @@ body {
         padding-bottom: 50px;
     }
 
-    .nav-destination .nav-item{
-        text-align: center;
-    }
-
     p {
         width: 90%;
         margin: auto;
@@ -77,6 +73,27 @@ body {
 
     .destination-image {
         width: 80%;
+    }
+
+    #nav-destination .nav-link {
+        text-align: center;
+    }
+
+
+    #nav-destination .nav-link span {
+        display: inline-block;    
+        width: initial;
+    }
+
+    #nav-destination .nav-link span:hover {
+        text-decoration: none;
+        border-bottom: 3px solid rgb(138, 139, 144);
+        border-right: none;
+    }
+    
+    #nav-destination .active span {
+        border-bottom: 3px solid white;
+        border-right: none;
     }
 }
 
