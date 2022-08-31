@@ -39,28 +39,28 @@ h4  {
     position: relative;
 }
 
-.commander-image {
-    width: 65%;
+.crew-image-container img {
     position: absolute;
+}
+
+.commander-image {
+    width: 65%;  
     right: 0;
 }
 
 .engineer-image {
     width: 100%;
-    position: absolute;
-    right: 0;
     top: 0;
+    right: 0;
 }
 
 .pilot-image {
     width: 90%;
-    position: absolute;
     right: 0;
 }
 
 .specialist-image {
     width: 85%;
-    position: absolute;
     right: 0;
 }
 
@@ -72,11 +72,22 @@ h4  {
     padding: 50px 0;
 }
 
+.content-mobile {
+    display: none;
+}
+
 /*! Small laptop size */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
-        background-image: url("../assets/crew/background-crew-tablet.jpg");
         text-align: center;
+    }
+    .nav-crew-container {
+        margin: auto;
+    }
+
+    .crew-image-container img {
+        bottom: 0;
+        top: auto;
     }
 }
 
@@ -125,12 +136,55 @@ h4  {
         padding-bottom: 50px;
     }
 
+    p {
+        width: 95%;
+        margin: auto;
+    }
+
+    hr {
+        margin: auto;
+        width: 80%;
+        backdrop-filter: blur(30px);
+    }
+
+    .crew-image-container img {
+        position: static;
+    }
+
+    .nav-crew-container {
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .crew-details {
+        margin-top: 0px;
+    }
+
+    .commander-image {
+        width: 50%;
+    }
+
+    .engineer-image {
+        width: 50%;
+    }
+
+    .pilot-image {
+        width: 45%;
+    }
+
+    .specialist-image {
+        width: 35%;
+    }
+
     .nav-destination .nav-item{
         text-align: center;
     }
 
-    p {
-        width: 70%;
-        margin: auto;
+    .content-mobile {
+        display: contents;
+    }
+
+    .content {
+        display: none;
     }
 }
