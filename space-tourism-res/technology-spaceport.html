@@ -18,20 +18,20 @@
   <title>Space tourism website</title>
 </head>
 <body>
-    <div class="row nav-row">
-      <div class="top-left-col col col-lg-5">
-        <img class="nav-image" src="assets/shared/logo.svg" alt="logo" srcset="">
-        <hr class="navbar-line">
-      </div>
-      <div class="top-right-col col-lg-7">
-        <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav-height-max" id="navbarSupportedContent">
-              <ul class="nav nav-fill nav-height-max">
+  <div id="nav-row-index" class="row nav-row">
+    <div class="top-left-col col col-lg-5 col-md-5 col-sm-6 col-6">
+      <img class="nav-image" src="assets/shared/logo.svg" alt="logo" srcset="">
+      <hr class="navbar-line">
+    </div>
+    <div class="top-right-col col-lg-7 col-md-7 col-sm-6 col-6">
+      <nav class="navbar navbar-expand-md">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </button>
+          <div class="collapse navbar-collapse nav-height-max" >
+            <ul class="nav nav-fill nav-height-max">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html"><span><strong>00</strong> Home</span></a>
+                  <a class="nav-link" href="index.html"><span><strong>00</strong> Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="destination-moon.html"><span><strong>01</strong> Destination</span></a>
@@ -42,13 +42,35 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="technology-vehicle.html"><span><strong>03</strong> Technology</span></a>
                 </li>
+            </ul>
+          </div>
+      </nav>
+
+      <div class="mobile-navbar-container collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="nav-mobile-close navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-x fa-xl"></i>
+            </button>
+            <div class="mobile-navbar">
+                <ul class="nav flex-column nav-fill nav-height-max">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><span><strong>00</strong> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="destination-moon.html"><span><strong>01</strong> Destination</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="crew-commander.html"><span><strong>02</strong> Crew</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="technology-vehicle.html"><span><strong>03</strong> Technology</span></a>
+                  </li>
               </ul>
             </div>
-            </div>
-        </nav>
       </div>
+    </div>
+  </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid content-desktop">
       <div class="row">
         <div class="col-lg-7">
           <h5 class="technology-subtitle "><strong>03</strong>Space launch 101</h5>
@@ -79,10 +101,43 @@
           </div>
         </div>
         <div class="col-lg-5 technology-image-container">
-          <img class="technology-image mt-5" src="./assets/technology/image-spaceport-portrait.jpg" alt="launch-vehicle-image" srcset="">
+          <img class="technology-image mt-5" src="./assets/technology/image-spaceport-portrait.jpg" alt="spaceport-image" srcset="">
         </div>
       </div>
-    </div>
+      </div>
+
+      <div class="container-fluid content-tablet-mobile">
+        <div class="row">
+          <h5 class="technology-subtitle "><strong>03</strong>Space launch 101</h5>
+          <div class="col-md-12 technology-image-container">
+            <img class="technology-image" src="./assets/technology/image-spaceport-landscape.jpg" alt="spaceport-image" srcset="">
+          </div>
+          <div class="col-md-12">
+            <ul class="nav technology-nav">
+              <li class="nav-item technology-item">
+                <a class="nav-link" href="technology-vehicle.html"><div class="technology-slide-container"><p>1</p></div></a>
+              </li>
+              <li class="nav-item technology-item">
+                <a class="nav-link" href="technology-spaceport.html"><div class="technology-slide-container active-slide"><p>2</p></div></a>
+              </li>
+              <li class="nav-item technology-item">
+                <a class="nav-link" href="technology-capsule.html"><div class="technology-slide-container"><p>3</p></div></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="technology-content">
+              <p class="subheading-two"> The terminology...</p>
+              <h3 class="mt-2 mb-4">Spaceport</h3>
+              <p>     A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+                by analogy to the seaport for ships or airport for aircraft. Based in the 
+                famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+                of the Earth’s rotation for launch.</p>  
+            </div>  
+          </div>
+        </div>
+      </div>
+  <script src="https://kit.fontawesome.com/a065a56372.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

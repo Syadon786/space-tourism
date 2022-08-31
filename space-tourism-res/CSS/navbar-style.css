@@ -143,10 +143,11 @@ ul.nav {
 
     .mobile-navbar-container {
         display: initial;
-        position: absolute;
+        position: fixed;
         backdrop-filter: blur(30px);
         width: 75vw;
         height: 100vh;
+        top: 0;
         right: 0;
         z-index: 1;
     }

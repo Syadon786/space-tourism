@@ -8,6 +8,13 @@ body {
     width: 100%;
 }
 
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 h1 {
     font-family: 'Bellefair', serif;
     font-size: 9.375rem;
@@ -71,6 +78,26 @@ p {
     margin-top: 2rem;
 }
 
+.content-mobile {
+    display: none;
+}
+
+.content-tablet-mobile {
+    display: none;
+}
+
+/*! Tablet size */
+@media (min-width: 768px) and (max-width: 991px) {
+    .content-tablet-mobile {
+        display: initial;
+    }
+
+    .content-desktop {
+        display: none;
+    }
+}
+
+/*! Mobile size */
 @media (max-width: 767px) {
     h1 {
         font-size: 6rem;
@@ -90,5 +117,21 @@ p {
 
     h2 {
         font-size: 4rem;
+    }
+
+    .content-mobile {
+        display: initial;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .content-tablet-mobile {
+        display: initial;
+    }
+
+    .content-desktop {
+        display: none;
     }
  }
